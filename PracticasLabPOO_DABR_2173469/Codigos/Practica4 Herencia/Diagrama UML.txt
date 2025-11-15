@@ -1,0 +1,18 @@
+VehiculoBaseD
+ ├─ +marca : String
+ ├─ +modelo : String
+ ├─ +año : int
+ ├─ +encender()
+ ├─ +apagar()
+ └─ +mostrarInfo()
+      ↑
+      │
+ ├── AutoBarbosa
+ │     └─ +puertas : int
+ │
+ ├── MotocicletaBarbosa
+ │     └─ +tieneCasco : boolean
+ │
+ └── CamionBarbosa
+       └─ +capacidadCarga : double
+
